@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Shield, Zap, Globe, Users, CheckCircle, ExternalLink } from "lucide-react"
 import Link from "next/link"
-import { Wallet, TrendingUp, DollarSign, PieChart, BarChart3, Coins, CreditCard, Banknote } from "lucide-react"
+import { Wallet, TrendingUp, DollarSign, PieChart, BarChart3, CreditCard, Banknote } from "lucide-react"
 
 export default function HomePage() {
   return (
@@ -35,125 +35,51 @@ export default function HomePage() {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      {/* Hero Section - Web3 Finance Ecosystem */}
       <section className="relative min-h-screen flex items-center justify-center px-6">
         {/* Background Orbital Graphics */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4">
             <div className="relative w-96 h-96 md:w-[600px] md:h-[600px]">
               {/* Outer ring */}
-              <div className="absolute inset-0 rounded-full border-2 border-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-30 animate-spin-slow">
-                <div className="absolute top-0 left-1/2 w-4 h-4 bg-cyan-400 rounded-full transform -translate-x-1/2 -translate-y-2"></div>
-                <div className="absolute bottom-0 right-1/4 w-3 h-3 bg-purple-500 rounded-full"></div>
+              <div className="absolute inset-0 rounded-full border-2 border-gradient-to-r from-green-400 via-blue-500 to-purple-500 opacity-30 animate-spin-slow">
+                <div className="absolute top-0 left-1/2 w-4 h-4 bg-green-400 rounded-full transform -translate-x-1/2 -translate-y-2"></div>
+                <div className="absolute bottom-0 right-1/4 w-3 h-3 bg-blue-500 rounded-full"></div>
               </div>
               {/* Middle ring */}
-              <div className="absolute inset-8 rounded-full border border-cyan-400 opacity-50 animate-spin-reverse">
-                <div className="absolute top-1/4 right-0 w-2 h-2 bg-pink-400 rounded-full"></div>
+              <div className="absolute inset-8 rounded-full border border-green-400 opacity-50 animate-spin-reverse">
+                <div className="absolute top-1/4 right-0 w-2 h-2 bg-purple-400 rounded-full"></div>
               </div>
               {/* Inner elements */}
               <div className="absolute inset-16 flex items-center justify-center">
-                <div className="w-32 h-32 bg-gradient-to-r from-cyan-400/20 to-purple-500/20 rounded-full blur-xl"></div>
+                <div className="w-32 h-32 bg-gradient-to-r from-green-400/20 to-blue-500/20 rounded-full blur-xl"></div>
               </div>
               {/* Floating particles */}
-              <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-cyan-400 rounded-full animate-pulse"></div>
-              <div className="absolute bottom-1/3 left-1/2 w-1 h-1 bg-purple-400 rounded-full animate-pulse delay-1000"></div>
-              <div className="absolute top-2/3 right-1/3 w-1 h-1 bg-pink-400 rounded-full animate-pulse delay-2000"></div>
+              <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-green-400 rounded-full animate-pulse"></div>
+              <div className="absolute bottom-1/3 left-1/2 w-1 h-1 bg-blue-400 rounded-full animate-pulse delay-1000"></div>
+              <div className="absolute top-2/3 right-1/3 w-1 h-1 bg-purple-400 rounded-full animate-pulse delay-2000"></div>
             </div>
           </div>
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <Badge className="mb-6 bg-gradient-to-r from-cyan-400/20 to-purple-500/20 text-cyan-400 border-cyan-400/30">
-            <Zap className="w-4 h-4 mr-2" />
-            Powered by Polkadot
+        <div className="relative z-10 max-w-6xl mx-auto text-center">
+          <Badge className="mb-6 bg-gradient-to-r from-green-400/20 to-blue-500/20 text-green-400 border-green-400/30">
+            <DollarSign className="w-4 h-4 mr-2" />
+            DeFi & Traditional Finance
           </Badge>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            Decentralized
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-green-400 to-blue-500 bg-clip-text text-transparent">
+            Web3 Finance
             <br />
-            Nodes
+            Ecosystem
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            A Delegation Program that Supports Validators in the Polkadot Ecosystem
+          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            Seamlessly blend traditional finance with decentralized protocols for complete financial control
           </p>
 
-          <div className="mb-12">
-            <p className="text-lg text-cyan-400 mb-6 font-semibold">Applications for Cohort 4 are now open!</p>
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-cyan-400 to-purple-500 hover:from-cyan-500 hover:to-purple-600 text-black font-semibold px-8 py-4 text-lg"
-            >
-              Apply Now
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Program Goals Section */}
-      <section id="program" className="py-20 px-6 relative">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-              Program Goals
-            </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">The program aims to select validators that:</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-gray-900/50 border-gray-800 hover:border-cyan-400/50 transition-all duration-300 group">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-cyan-400/20 to-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
-                  <Shield className="w-8 h-8 text-cyan-400" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 text-white">Technical Excellence</h3>
-                <p className="text-gray-400">
-                  Have the technical knowledge to run secure and reliable validator nodes with minimal downtime
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-400/50 transition-all duration-300 group">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-purple-400/20 to-pink-500/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
-                  <Globe className="w-8 h-8 text-purple-400" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 text-white">Network Reliability</h3>
-                <p className="text-gray-400">
-                  Don't go offline, miss paravalidation duties, and maintain consistent network participation
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-gray-900/50 border-gray-800 hover:border-pink-400/50 transition-all duration-300 group">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-pink-400/20 to-cyan-500/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
-                  <Zap className="w-8 h-8 text-pink-400" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 text-white">Emergency Response</h3>
-                <p className="text-gray-400">
-                  Can react to emergencies quickly and effectively to maintain network security and stability
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* DeFi Integration Section */}
-      <section className="py-20 px-6 relative">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-              Web3 Finance Ecosystem
-            </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Seamlessly blend traditional finance with decentralized protocols for complete financial control
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {/* Feature Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12 max-w-5xl mx-auto">
             <Card className="bg-gray-900/50 border-gray-800 hover:border-green-400/50 transition-all duration-300 group">
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 bg-gradient-to-r from-green-400/20 to-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
@@ -197,57 +123,107 @@ export default function HomePage() {
             </Card>
           </div>
 
-          {/* Featured DeFi Platforms */}
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-black font-semibold px-8 py-4 text-lg"
+            >
+              Connect Wallet
+              <Wallet className="ml-2 w-5 h-5" />
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black px-8 py-4 bg-transparent text-lg"
+            >
+              Explore DeFi
+              <TrendingUp className="ml-2 w-5 h-5" />
+            </Button>
+          </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center max-w-4xl mx-auto">
+            <div>
+              <div className="text-3xl font-bold text-green-400 mb-2">$2.5B+</div>
+              <div className="text-gray-400 text-sm">Total Value Locked</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">15.2%</div>
+              <div className="text-gray-400 text-sm">Average APY</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-purple-400 mb-2">500K+</div>
+              <div className="text-gray-400 text-sm">Active Users</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-yellow-400 mb-2">0.01%</div>
+              <div className="text-gray-400 text-sm">Transaction Fees</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Decentralized Nodes Program Section */}
+      <section id="program" className="py-20 px-6 relative">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <Badge className="mb-6 bg-gradient-to-r from-cyan-400/20 to-purple-500/20 text-cyan-400 border-cyan-400/30">
+              <Zap className="w-4 h-4 mr-2" />
+              Powered by Polkadot
+            </Badge>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+              Decentralized Nodes Program
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+              A Delegation Program that Supports Validators in the Polkadot Ecosystem
+            </p>
+            <div className="mb-8">
+              <p className="text-lg text-cyan-400 mb-6 font-semibold">Applications for Cohort 4 are now open!</p>
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-cyan-400 to-purple-500 hover:from-cyan-500 hover:to-purple-600 text-black font-semibold px-8 py-4"
+              >
+                Apply Now
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-gradient-to-br from-pink-500/10 to-purple-600/10 border-pink-500/30 hover:border-pink-400 transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-pink-400 to-purple-500 rounded-full flex items-center justify-center mr-3">
-                    <Coins className="w-5 h-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-white">OpenFi Banking</h3>
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-cyan-400/50 transition-all duration-300 group">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-cyan-400/20 to-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                  <Shield className="w-8 h-8 text-cyan-400" />
                 </div>
-                <p className="text-gray-300 mb-4">
-                  Web3 banking app built on DeFi protocols, offering more control over your wealth than traditional
-                  banks.
+                <h3 className="text-xl font-bold mb-4 text-white">Technical Excellence</h3>
+                <p className="text-gray-400">
+                  Have the technical knowledge to run secure and reliable validator nodes with minimal downtime
                 </p>
-                <Button className="w-full bg-gradient-to-r from-pink-400 to-purple-500 hover:from-pink-500 hover:to-purple-600 text-white">
-                  Connect to OpenFi
-                </Button>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-blue-500/10 to-cyan-600/10 border-blue-500/30 hover:border-blue-400 transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full flex items-center justify-center mr-3">
-                    <TrendingUp className="w-5 h-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-white">Uniswap DEX</h3>
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-purple-400/50 transition-all duration-300 group">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-purple-400/20 to-pink-500/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                  <Globe className="w-8 h-8 text-purple-400" />
                 </div>
-                <p className="text-gray-300 mb-4">
-                  Trade cryptocurrencies directly on the world's leading decentralized exchange protocol.
+                <h3 className="text-xl font-bold mb-4 text-white">Network Reliability</h3>
+                <p className="text-gray-400">
+                  Don't go offline, miss paravalidation duties, and maintain consistent network participation
                 </p>
-                <Button className="w-full bg-gradient-to-r from-blue-400 to-cyan-500 hover:from-blue-500 hover:to-cyan-600 text-white">
-                  Trade on Uniswap
-                </Button>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-green-500/10 to-emerald-600/10 border-green-500/30 hover:border-green-400 transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mr-3">
-                    <DollarSign className="w-5 h-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-white">DeFi Lending</h3>
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-pink-400/50 transition-all duration-300 group">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-pink-400/20 to-cyan-500/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                  <Zap className="w-8 h-8 text-pink-400" />
                 </div>
-                <p className="text-gray-300 mb-4">
-                  Lend, borrow, and earn interest on your crypto assets through various DeFi protocols.
+                <h3 className="text-xl font-bold mb-4 text-white">Emergency Response</h3>
+                <p className="text-gray-400">
+                  Can react to emergencies quickly and effectively to maintain network security and stability
                 </p>
-                <Button className="w-full bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white">
-                  Start Earning
-                </Button>
               </CardContent>
             </Card>
           </div>
