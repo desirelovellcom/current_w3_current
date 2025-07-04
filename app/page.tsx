@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Shield, Zap, Globe, Users, CheckCircle, ExternalLink } from "lucide-react"
 import Link from "next/link"
 import { Wallet, TrendingUp, DollarSign, PieChart, BarChart3, CreditCard, Banknote } from "lucide-react"
+import KindnessSection from "@/components/kindness-section"
 
 export default function HomePage() {
   return (
@@ -25,6 +26,9 @@ export default function HomePage() {
           </Link>
           <Link href="#ecosystem" className="hover:text-cyan-400 transition-colors">
             Ecosystem
+          </Link>
+          <Link href="#kindness" className="hover:text-purple-400 transition-colors">
+            Kindness
           </Link>
           <Button
             variant="outline"
@@ -163,6 +167,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Kindness Network Section */}
+      <div id="kindness">
+        <KindnessSection />
+      </div>
 
       {/* Decentralized Nodes Program Section */}
       <section id="program" className="py-20 px-6 relative">
