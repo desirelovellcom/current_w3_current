@@ -1,43 +1,30 @@
-# 💬 KindnessChain Chat – A Web3-Powered Social DApp
+# Web3 application clone
 
-Welcome to **KindnessChain Chat**, a Web3-native messaging app where kindness is the currency. Built on the **Pi Network** for seamless Web3 authentication, this decentralized app (DApp) lets users connect, chat, and send tokens of appreciation for kind actions—completely anonymously or with identity.
+*Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
-![KindnessChain Chat UI Preview](https://your-screenshot-url-if-available.png)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/desirelovellcoms-projects/v0-web3-application-clone)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HUSsAhhdR4Q)
 
----
+## Overview
 
-## 🚀 Features
+This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
-- 🔐 **Web3 Login via Pi Network SDK**
-- 🎨 **Fully Customizable UI** via URL parameters
-- 💬 **Chat Interface** with input field, bubbles, and dynamic theming
-- 🧑‍🚀 **Anonymity Mode** with optional signature reveal
-- 🪙 **Token of Kindness** (roadmap) – reward kindness with crypto
-- 🌈 **Holographic toggle & ambient design**
+## Deployment
 
----
+Your project is live at:
 
-## 🧠 Live Demo
+**[https://vercel.com/desirelovellcoms-projects/v0-web3-application-clone](https://vercel.com/desirelovellcoms-projects/v0-web3-application-clone)**
 
-Try it now: [https://v0.dev/chat/web3-current-yxtIUBNHgbb](https://v0.dev/chat/web3-current-yxtIUBNHgbb)
+## Build your app
 
----
+Continue building your app on:
 
-## 🛠 Tech Stack
+**[https://v0.dev/chat/projects/HUSsAhhdR4Q](https://v0.dev/chat/projects/HUSsAhhdR4Q)**
 
-- Frontend: HTML, CSS, JavaScript (v0.dev codegen)
-- Authentication: Pi Network SDK
-- Framework: React-compatible structure
-- Backend (to be added): Node.js / Firebase / IPFS / Smart Contract
+## How It Works
 
----
-
-## 📦 Installation
-
-> Clone the repository and run locally
-
-```bash
-git clone https://github.com/yourusername/kindnesschain-chat.git
-cd kindnesschain-chat
-npm install
-npm run dev
+1. Create and modify your project using [v0.dev](https://v0.dev)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository
