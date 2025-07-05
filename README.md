@@ -1,30 +1,48 @@
-# Web3 application clone
+# 🎥 KindnessChain Video – A Web3 App to Spread Kindness via Video
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Welcome to **KindnessChain Video**, a decentralized Web3 platform where users can send short, uplifting video messages and receive crypto-backed tokens of appreciation for kindness.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/desirelovellcoms-projects/v0-web3-application-clone)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HUSsAhhdR4Q)
+✨ Powered by Pi Network authentication  
+🎞️ Send or receive anonymous video kindness  
+🪙 No likes, no views—just gratitude-based rewards
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🌐 Live Demo  
+Access the live app here: [KindnessChain Video](https://v0.dev/chat/web3-current-yxtIUBNHgbb)
 
-## Deployment
+---
 
-Your project is live at:
+## 🧠 Overview
 
-**[https://vercel.com/desirelovellcoms-projects/v0-web3-application-clone](https://vercel.com/desirelovellcoms-projects/v0-web3-application-clone)**
+**KindnessChain Video** is a Web3 DApp that flips the script on traditional social media. Instead of chasing likes, users are encouraged to share uplifting video messages. These acts of kindness are rewarded with token-based acknowledgment (coming soon), aiming to build a value system based on positivity rather than popularity.
 
-## Build your app
+---
 
-Continue building your app on:
+## 🎯 Features
 
-**[https://v0.dev/chat/projects/HUSsAhhdR4Q](https://v0.dev/chat/projects/HUSsAhhdR4Q)**
+- 🔐 **Login with Pi Network** – Simple and secure authentication  
+- 🎥 **Upload or Record Video Messages**  
+- 🌈 **Send Gratitude with Kindness Tokens** (Future Feature)  
+- 💬 **Optional Message Signing** – Stay anonymous or verify with your Pi ID  
+- 📲 **Responsive UI** – Mobile and desktop friendly  
+- 🎨 **Customizable Themes & Holographic Toggles**
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🛠 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript (generated with [v0.dev](https://v0.dev))  
+- **Auth:** Pi Network SDK v2  
+- **Framework:** React-compatible (Next.js-style layout)  
+- **Backend (Future):** Node.js, IPFS, Smart Contracts, or Firebase
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/kindnesschain-video.git
+cd kindnesschain-video
+npm install
+npm run dev
